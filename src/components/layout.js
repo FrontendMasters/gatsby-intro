@@ -1,5 +1,6 @@
 import React from 'react';
 import { Global, css } from '@emotion/core';
+import Helmet from 'react-helmet';
 import Header from './header';
 
 const Layout = ({ children }) => (
@@ -55,6 +56,14 @@ const Layout = ({ children }) => (
         }
       `}
     />
+    <Helmet>
+      <html lang="en" />
+      <title>Frontend Masters Gatsby Workshop</title>
+      <meta
+        name="description"
+        content="A site we built together during a full-day Frontend Masters Gatsby workshop!"
+      />
+    </Helmet>
     <Header />
     <main
       css={css`
