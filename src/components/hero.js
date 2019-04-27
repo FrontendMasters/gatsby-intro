@@ -20,8 +20,13 @@ const TextBox = styled('div')`
   flex-direction: column;
   height: 100%;
   justify-content: flex-end;
-  padding: 0 calc((100vw - 550px) / 2) 2rem;
+  padding: 0 5vw 2rem;
   width: 100%;
+
+  @media (min-width: calc(550px + 10vw)) {
+    padding-left: calc((100vw - 550px) / 2);
+    padding-right: calc((100vw - 550px) / 2);
+  }
 
   h1 {
     text-shadow: 1px 1px 3px #eeddff66;
