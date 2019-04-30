@@ -28,3 +28,7 @@ In this workshop, learn to build blazing fast apps and websites with React using
 1. `npm install`
 1. `npm run develop`
 1. Open http://localhost:8000/
+
+For windows users, go through the installation instructions for [cross-env](https://github.com/kentcdodds/cross-env) and add it to your `package.json` develop script.
+
+[Course Slides](https://jlengstorf.github.io/presentations/workshop-gatsby-mdx-blog/#/) (hit the right/down arrow keys to progress through the slides)
