@@ -7,7 +7,7 @@ import ReadLink from '../components/read-link';
 
 export const query = graphql`
   query($slug: String!) {
-    mdx(fileAbsolutePath: { regex: $slug }) {
+    mdx(frontmatter: { slug: { eq: $slug } }) {
       frontmatter {
         title
         author
