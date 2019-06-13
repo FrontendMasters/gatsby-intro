@@ -13,12 +13,12 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
-    "cross-env": "^5.2.0",
     "gatsby": "^2.3.16",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "cross-env": "^5.2.0",
     "prettier": "^1.17.0"
   },
   "repository": {
