@@ -1,9 +1,3 @@
-## Course Code Update on August 4th, 2019
-
-The `gatsby-mdx` plugin was deprecated in favor of `gatsby-plugin-mdx`. See this [commit to migrate to gatsby-plugin-mdx](https://github.com/FrontendMasters/gatsby-intro/commit/fe9aae6255cc1749205f95e8ca6698476f992a61).
-
-All course branches have been tested with the new `gatsby-plugin-mdx`, and all dependencies upgraded.
-
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
@@ -43,3 +37,7 @@ For windows users, go through the installation instructions for [cross-env](http
 1. Have a text editor installed, i.e. [VSCode](https://code.visualstudio.com/)
 2. Have the Gatsby CLI (gatsby-cli) installed globally by running:
    `npm install -g gatsby-cli`
+
+## Course Code Update on August 4th, 2019
+
+The `gatsby-mdx` plugin was deprecated in favor of `gatsby-plugin-mdx`. See this [commit to migrate to gatsby-plugin-mdx](https://github.com/FrontendMasters/gatsby-intro/commit/fe9aae6255cc1749205f95e8ca6698476f992a61). All course branches are now tested with the new `gatsby-plugin-mdx`, and all dependencies have now been upgraded.
