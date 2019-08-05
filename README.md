@@ -38,6 +38,21 @@ For windows users, go through the installation instructions for [cross-env](http
 2. Have the Gatsby CLI (gatsby-cli) installed globally by running:
    `npm install -g gatsby-cli`
 
-## Course Code Update on August 4th, 2019
+## Course Errata
 
-The `gatsby-mdx` plugin was deprecated in favor of `gatsby-plugin-mdx`. See this [commit to migrate to gatsby-plugin-mdx](https://github.com/FrontendMasters/gatsby-intro/commit/fe9aae6255cc1749205f95e8ca6698476f992a61). All course branches are now tested with the new `gatsby-plugin-mdx`, and all dependencies have now been upgraded.
+### Step 4: Rendering Components in MDX
+
+The `gatsby-mdx` plugin was deprecated in favor of `gatsby-plugin-mdx`. 
+
+See this [commit to migrate to gatsby-plugin-mdx](https://github.com/FrontendMasters/gatsby-intro/commit/fe9aae6255cc1749205f95e8ca6698476f992a61). All course branches are now tested with the new `gatsby-plugin-mdx`, and all dependencies have now been upgraded.
+
+View the `step4/mdx-blog` branch for final code for the section.
+
+### Step 6: Adding Optimized Images to Post
+
+There is an additional config line that needs to be added.
+
+See this [commit to configure `gatsby-remark-images'`].
+
+View the `step6/blog-images` branch for final code for the section.
+
