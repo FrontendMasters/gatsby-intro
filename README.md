@@ -40,7 +40,7 @@ For windows users, go through the installation instructions for [cross-env](http
 
 ## Course Errata
 
-#### The `gatsby-mdx` plugin was deprecated in favor of `gatsby-plugin-mdx`.**
+#### The `gatsby-mdx` plugin was deprecated in favor of `gatsby-plugin-mdx`.
 
 Fixed code: See this [commit to migrate to gatsby-plugin-mdx](https://github.com/FrontendMasters/gatsby-intro/commit/fe9aae6255cc1749205f95e8ca6698476f992a61) for the fixed code.
 
@@ -48,7 +48,7 @@ Video: Jason installs this plugin in the [Rendering Components in MDX](https://f
 
 View the `step4/mdx-blog` branch for final code for the section.
 
-#### An additional config line needs to be added to configure `gatsby-remark-images`.**
+#### An additional config line needs to be added to configure `gatsby-remark-images`.
 
 Fixed code: See this [commit to configure `gatsby-remark-images'`](https://github.com/FrontendMasters/gatsby-intro/commit/932de28e17f89888d0826e0b6148a9d9452f95cb) for the fixed code.
 
