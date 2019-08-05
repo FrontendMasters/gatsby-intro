@@ -42,16 +42,12 @@ For windows users, go through the installation instructions for [cross-env](http
 
 ### [Rendering Components in MDX](https://frontendmasters.com/courses/gatsby/rendering-components-in-mdx/) (@ 1 minute, 32 seconds)
 
-The `gatsby-mdx` plugin was deprecated in favor of `gatsby-plugin-mdx`. 
-
-See this [commit to migrate to gatsby-plugin-mdx](https://github.com/FrontendMasters/gatsby-intro/commit/fe9aae6255cc1749205f95e8ca6698476f992a61). All course branches are now tested with the new `gatsby-plugin-mdx`, and all dependencies have now been upgraded.
+The `gatsby-mdx` plugin was deprecated in favor of `gatsby-plugin-mdx`. See this [commit to migrate to gatsby-plugin-mdx](https://github.com/FrontendMasters/gatsby-intro/commit/fe9aae6255cc1749205f95e8ca6698476f992a61). All course branches are now tested with the new `gatsby-plugin-mdx`, and all dependencies have now been upgraded.
 
 View the `step4/mdx-blog` branch for final code for the section.
 
 ### [Adding Optimized Images to Post](https://frontendmasters.com/courses/gatsby/adding-optimized-images-to-posts/) (@ 1 minute, 49 seconds)
 
-There is an additional config line that needs to be added.
-
-See this [commit to configure `gatsby-remark-images'`].
+There is an additional config line that needs to be added. See this [commit to configure `gatsby-remark-images'`](https://github.com/FrontendMasters/gatsby-intro/commit/932de28e17f89888d0826e0b6148a9d9452f95cb).
 
 View the `step6/blog-images` branch for final code for the section.
