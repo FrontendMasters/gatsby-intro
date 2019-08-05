@@ -40,7 +40,7 @@ For windows users, go through the installation instructions for [cross-env](http
 
 ## Course Errata
 
-### Step 4: Rendering Components in MDX
+### [Rendering Components in MDX](https://frontendmasters.com/courses/gatsby/rendering-components-in-mdx/) (@ 1 minute, 32 seconds)
 
 The `gatsby-mdx` plugin was deprecated in favor of `gatsby-plugin-mdx`. 
 
@@ -48,11 +48,10 @@ See this [commit to migrate to gatsby-plugin-mdx](https://github.com/FrontendMas
 
 View the `step4/mdx-blog` branch for final code for the section.
 
-### Step 6: Adding Optimized Images to Post
+### [Adding Optimized Images to Post](https://frontendmasters.com/courses/gatsby/adding-optimized-images-to-posts/) (@ 1 minute, 49 seconds)
 
 There is an additional config line that needs to be added.
 
 See this [commit to configure `gatsby-remark-images'`].
 
 View the `step6/blog-images` branch for final code for the section.
-
