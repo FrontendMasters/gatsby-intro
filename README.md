@@ -22,7 +22,7 @@ In this course, learn to build blazing fast apps and websites with React using G
 - Create websites quickly with performance baked in.
 - Deploy your sites for free in minutes with Netlify.
 
-## Installation Instructions
+## Get Code Running on Your Machine
 
 For windows users, go through the installation instructions for [cross-env](https://github.com/kentcdodds/cross-env) and add it to your `package.json` develop script.
 
@@ -32,11 +32,26 @@ For windows users, go through the installation instructions for [cross-env](http
 
 [Course Slides](https://jlengstorf.github.io/presentations/workshop-gatsby-mdx-blog/#/) (hit the right/down arrow keys to progress through the slides)
 
-## Prerequisites
+### Prerequisites
 
 1. Have a text editor installed, i.e. [VSCode](https://code.visualstudio.com/)
 2. Have the Gatsby CLI (gatsby-cli) installed globally by running:
    `npm install -g gatsby-cli`
+   
+## Course Code on CodeSandbox
+
+If you want to quickly jump into the course code without having to get it running on your computer. You can jump into the CodeSandbox for each branch:
+
+- [Course Starter](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/master/)
+- [Step 0: Pages & Links](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step0/pages-and-links) 
+- [Step 1: Styles](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step1/styles)
+- [Step 2: GraphQL & SEO](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step2/graphql-and-seo)
+- [Step 3: MDX](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step3/mdx)
+- [Step 4: MDX Blog](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step4/mdx-blog)
+- [Step 5: Hero Image](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step5/hero-image)
+- [Step 6: Blog Images](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step6/blog-images)
+- [Step 7: Source Plugins with Instagram Datasource](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step7/source-plugins)
+- [Step 8: Analyze Bundle](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step8/analyze) (must fork to run npm run analyze)
 
 ## Course Errata
 
