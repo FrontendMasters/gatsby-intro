@@ -60,7 +60,7 @@ View the `step6/blog-images` branch for final code for the section.
 
 in ```post.js``` the query should be
 
-```
+```javascript
 export const query = graphql`
   query($slug: String!) {
     mdx(frontmatter: { slug: { eq: $slug } }) {
@@ -76,7 +76,7 @@ export const query = graphql`
 
 Instead of 
 
-```
+```javascript
 export const query = graphql`
   query($slug: String!) {
     mdx(frontmatter: { slug: { eq: $slug } }) {
