@@ -40,15 +40,17 @@ For windows users, go through the installation instructions for [cross-env](http
 
 ## Course Errata
 
+### Video: [Rendering Components in MDX](https://frontendmasters.com/courses/gatsby/rendering-components-in-mdx/) video at 1 minute, 32 seconds where Jason installs the Gatsby MDX plugin.
+
 #### The `gatsby-mdx` plugin was deprecated in favor of `gatsby-plugin-mdx`.
 
 Fixed code: See this [commit to migrate to gatsby-plugin-mdx](https://github.com/FrontendMasters/gatsby-intro/commit/fe9aae6255cc1749205f95e8ca6698476f992a61)
 
 `npm install gatsby-plugin-mdx` instead of `gatsby-mdx`
 
-Video: Jason installs this plugin in the [Rendering Components in MDX](https://frontendmasters.com/courses/gatsby/rendering-components-in-mdx/) video at 1 minute, 32 seconds.
-
 View the `step4/mdx-blog` branch for final code for the section.
+
+### Video: [Adding Optimized Images to Post](https://frontendmasters.com/courses/gatsby/adding-optimized-images-to-posts/) at 1 minute, 49 seconds where Jason configures remark images.
 
 #### An additional config line needs to be added to configure `gatsby-remark-images`.
 
@@ -67,9 +69,9 @@ Fixed code: See this [commit to configure `gatsby-remark-images'`](https://githu
     },
 ```
 
-Video: Jason configures remark images in the [Adding Optimized Images to Post](https://frontendmasters.com/courses/gatsby/adding-optimized-images-to-posts/) at 1 minute, 49 seconds.
-
 View the `step6/blog-images` branch for final code for the section.
+
+### Video: [Getting Post by Slug](https://frontendmasters.com/courses/gatsby/getting-post-data-by-slug/) at 4 minutes, 55 seconds where Jason gets the post body.
 
 #### gatsby-plugin-mdx no longer requires `body` to be nested in `code` in the query
 
