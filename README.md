@@ -22,25 +22,13 @@ In this course, learn to build blazing fast apps and websites with React using G
 - Create websites quickly with performance baked in.
 - Deploy your sites for free in minutes with Netlify.
 
-## Get Code Running on Your Machine
+## A Note About Running the Code
 
-For windows users, go through the installation instructions for [cross-env](https://github.com/kentcdodds/cross-env) and add it to your `package.json` develop script.
+We recommend getting the [code running on your computer](#getting-course-code-running-on-your-machine) to build your confidence working with Gatsby. If you get stuck, use the [Course Errata](#course-errata) below, or simply jump right into the code without having to get it running on your computer using the CodeSandbox links.
 
-1. `npm install`
-1. `npm run develop`
-1. Open http://localhost:8000/
+## Course Code Running on CodeSandbox
 
-[Course Slides](https://jlengstorf.github.io/presentations/workshop-gatsby-mdx-blog/#/) (hit the right/down arrow keys to progress through the slides)
-
-### Prerequisites
-
-1. Have a text editor installed, i.e. [VSCode](https://code.visualstudio.com/)
-2. Have the Gatsby CLI (gatsby-cli) installed globally by running:
-   `npm install -g gatsby-cli`
-   
-## Course Code on CodeSandbox
-
-If you want to quickly jump into the course code without having to get it running on your computer. You can jump into the CodeSandbox for each branch:
+, but if you'd like to more simply jump into the course code without having to get it running on your computer. You can jump into the CodeSandbox for each branch:
 
 - [Course Starter](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/master/)
 - [Step 0: Pages & Links](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step0/pages-and-links) 
@@ -53,6 +41,24 @@ If you want to quickly jump into the course code without having to get it runnin
 - [Step 7: Source Plugins with Instagram Datasource](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step7/source-plugins)
 - [Step 8: Analyze Bundle](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step8/analyze) (must fork to run npm run analyze)
 
+## Getting Course Code Running on Your Machine
+
+For windows users, go through the installation instructions for [cross-env](https://github.com/kentcdodds/cross-env) and add it to your `package.json` develop script.
+
+1. `npm install`
+1. `npm run develop`
+1. Open http://localhost:8000/
+
+[Course Slides](https://jlengstorf.github.io/presentations/workshop-gatsby-mdx-blog/#/) (hit the right/down arrow keys to progress through the slides)
+
+Refer to the Course Errata below if you are running into issues.
+
+### Prerequisites
+
+1. Have a text editor installed, i.e. [VSCode](https://code.visualstudio.com/)
+2. Have the Gatsby CLI (gatsby-cli) installed globally by running:
+   `npm install -g gatsby-cli`
+   
 ## Course Errata
 
 ### Video: [Rendering Components in MDX](https://frontendmasters.com/courses/gatsby/rendering-components-in-mdx/) video at 1 minute, 32 seconds where Jason installs the Gatsby MDX plugin.
@@ -121,6 +127,6 @@ export const query = graphql`
       }
     }
   }
-`
+```
 
 More details in [issue #27](https://github.com/FrontendMasters/gatsby-intro/issues/27)
