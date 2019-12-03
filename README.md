@@ -55,3 +55,40 @@ Fixed code: See this [commit to configure `gatsby-remark-images'`](https://githu
 Video: Jason configures remark images in the [Adding Optimized Images to Post](https://frontendmasters.com/courses/gatsby/adding-optimized-images-to-posts/) at 1 minute, 49 seconds.
 
 View the `step6/blog-images` branch for final code for the section.
+
+#### gatsby-plugin-mdx no longer requires `body` to be nested in `code` in the query
+
+in ```post.js``` the query should be
+
+```
+export const query = graphql`
+  query($slug: String!) {
+    mdx(frontmatter: { slug: { eq: $slug } }) {
+      frontmatter {
+        title
+        author
+      }
+      body
+    }
+  }
+`
+```
+
+Instead of 
+
+```
+export const query = graphql`
+  query($slug: String!) {
+    mdx(frontmatter: { slug: { eq: $slug } }) {
+      frontmatter {
+        title
+        author
+      }
+      code {
+        body
+      }
+    }
+  }
+`
+
+More details in [issue #27](https://github.com/FrontendMasters/gatsby-intro/issues/27)
