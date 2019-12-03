@@ -44,6 +44,8 @@ For windows users, go through the installation instructions for [cross-env](http
 
 Fixed code: See this [commit to migrate to gatsby-plugin-mdx](https://github.com/FrontendMasters/gatsby-intro/commit/fe9aae6255cc1749205f95e8ca6698476f992a61)
 
+`npm install gatsby-plugin-mdx` instead of `gatsby-mdx`
+
 Video: Jason installs this plugin in the [Rendering Components in MDX](https://frontendmasters.com/courses/gatsby/rendering-components-in-mdx/) video at 1 minute, 32 seconds.
 
 View the `step4/mdx-blog` branch for final code for the section.
@@ -51,6 +53,19 @@ View the `step4/mdx-blog` branch for final code for the section.
 #### An additional config line needs to be added to configure `gatsby-remark-images`.
 
 Fixed code: See this [commit to configure `gatsby-remark-images'`](https://github.com/FrontendMasters/gatsby-intro/commit/932de28e17f89888d0826e0b6148a9d9452f95cb)
+
+```javascript
+    {
+      resolve: 'gatsby-plugin-mdx',
+      options: {
+        defaultLayouts: {
+          default: require.resolve('./src/components/layout.js'),
+        },
+        gatsbyRemarkPlugins: ['gatsby-remark-images'],
+        plugins: ['gatsby-remark-images'],
+      },
+    },
+```
 
 Video: Jason configures remark images in the [Adding Optimized Images to Post](https://frontendmasters.com/courses/gatsby/adding-optimized-images-to-posts/) at 1 minute, 49 seconds.
 
