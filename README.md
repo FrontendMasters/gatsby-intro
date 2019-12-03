@@ -24,11 +24,11 @@ In this course, learn to build blazing fast apps and websites with React using G
 
 ## A Note About Running the Code
 
-We recommend getting the [code running on your computer](#getting-course-code-running-on-your-machine) to build your confidence working with Gatsby. If you get stuck, use the [Course Errata](#course-errata) below, or simply jump right into the code without having to get it running on your computer using the CodeSandbox links.
+We recommend getting the [code running on your computer](#getting-course-code-running-on-your-machine) to build your confidence working with Gatsby. If you get stuck, use the [Course Errata](#course-errata) below to debug, or refer to the the step branches to see what is different between your code and the reference code.
 
 ## Course Code Running on CodeSandbox
 
-, but if you'd like to more simply jump into the course code without having to get it running on your computer. You can jump into the CodeSandbox for each branch:
+You can jump into the CodeSandbox for each branch without having to get the code running on your computer. Keep in mind, that if you want to modify the code, you'll need to create a CodeSandbox free account to fork a new sandbox and save it to your CodeSandbox account.
 
 - [Course Starter](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/master/)
 - [Step 0: Pages & Links](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step0/pages-and-links) 
