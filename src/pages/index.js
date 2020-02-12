@@ -1,16 +1,22 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../components/layout';
-import { getPosts } from '../hooks/use-posts';
+import { usePosts } from '../hooks/use-posts';
+import PostPreview from '../components/postPreview';
+import Hero from '../components/hero';
 
 export default () => {
-  const x = getPosts();
-  console.log(x);
+  const posts = usePosts();
   return (
-    <Layout>
-      <h1>Home</h1>
-      <p>Hello Minnesota!</p>
-      <Link to="/about/">Learn about me &rarr;</Link>
-    </Layout>
+    <>
+      <Hero />
+      <Layout>
+        {posts.map(post => (
+          <PostPreview key={post.slug} {...post} />
+        ))}
+        <p>Hello Minnesota!</p>
+        <Link to="/about/">Learn about me &rarr;</Link>
+      </Layout>
+    </>
   );
 };
