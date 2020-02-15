@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import { usePosts } from '../hooks/use-posts';
 import PostPreview from '../components/postPreview';
 import Hero from '../components/hero';
+import Insta from '../components/insta';
 
 export default () => {
   const posts = usePosts();
@@ -16,6 +17,7 @@ export default () => {
         ))}
         <p>Hello Minnesota!</p>
         <Link to="/about/">Learn about me &rarr;</Link>
+        <Insta />
       </Layout>
     </>
   );

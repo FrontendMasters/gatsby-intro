@@ -5785,6 +5785,14 @@ gatsby-source-filesystem@^2.1.48:
     valid-url "^1.0.9"
     xstate "^4.7.2"
 
+gatsby-source-instagram@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/gatsby-source-instagram/-/gatsby-source-instagram-0.6.1.tgz#8ed2548411217c8de790c94c188ce29d529c5ae2"
+  integrity sha512-LmdD+t92hEPC3Ow8Mr2SNMqYBVQpkTdfSGZ0g3V7RvKbPbwy51Nx/okI2K8n3wL7u23O3COhKohtnqhW69VPZA==
+  dependencies:
+    axios "^0.19.0"
+    cheerio "^1.0.0-rc.3"
+
 gatsby-telemetry@^1.1.49:
   version "1.1.49"
   resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-1.1.49.tgz#f577738fe03a4aeef4bb5b481969e91fd52ca22d"
