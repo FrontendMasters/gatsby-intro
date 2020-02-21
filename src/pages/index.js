@@ -15,7 +15,7 @@ export default () => {
         {posts.map(post => (
           <PostPreview key={post.slug} {...post} />
         ))}
-        <p>Hello Minnesota!</p>
+        <p>Hello Missouri!</p>
         <Link to="/about/">Learn about me &rarr;</Link>
         <Insta />
       </Layout>
