@@ -4,8 +4,9 @@ import { css } from '@emotion/core';
 import useInstagram from '../hooks/use-instagram';
 
 const Insta = () => {
-  const instaData = useInstagram();
-  const { username } = instaData[0];
+  const instaPhotos = useInstagram();
+  const { username } = instaPhotos[0];
+
   return (
     <>
       <h2>Insta posts from @{username}</h2>
@@ -15,11 +16,11 @@ const Insta = () => {
           flex-wrap: wrap;
           justify-content: space-between;
           margin: 1rem -0.5rem;
+          padding: 0.5rem 0;
         `}
       >
-        {instaData.map(photo => (
+        {instaPhotos.map(photo => (
           <a
-            key={photo.id}
             href={`https://instagram.com/p/${photo.id}/`}
             css={css`
               box-shadow: 0;
@@ -27,7 +28,7 @@ const Insta = () => {
               margin: 0.5rem;
               max-width: calc(33% - 1rem);
               width: 120px;
-              transiton: 200ms box-shadow linear;
+              transition: 200ms box-shadow linear;
 
               :focus,
               :hover {
@@ -37,7 +38,7 @@ const Insta = () => {
             `}
           >
             <Image
-              fluid={photo.fluid}
+              key={photo.id}
               alt={photo.caption}
               css={css`
                 width: 100%;
@@ -45,6 +46,7 @@ const Insta = () => {
                   margin-top: 0;
                 }
               `}
+              fluid={photo.fluid}
             />
           </a>
         ))}
