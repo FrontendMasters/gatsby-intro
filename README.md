@@ -1,3 +1,6 @@
+> [!NOTE]
+> This repo is from an archived version of the course. Watch the latest version of the course on [frontendmasters.com](https://frontendmasters.com/courses/gatsby-v2/).
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
